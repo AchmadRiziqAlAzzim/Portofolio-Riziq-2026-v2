@@ -1,0 +1,1922 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Portofolio Riziq | 2026</title>
+</head>
+
+<body>
+  <section id="home">
+
+
+    <div id="bg-grid"></div>
+    <div id="loading" class="fixed inset-0 z-[9999] hidden items-center justify-center bg-white">
+      <div class="loader"></div>
+    </div>
+
+    <nav class="bg-transparent fixed w-full z-50 top-0 start-0 pt-3" id="navbar">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <i class="fa-brands fa-codepen text-3xl text-normal color"></i>
+          <span class="self-center text-xl text-black whitespace-nowrap text-normal font-bold">Dev<span
+              class="color">Riziq</span></span>
+        </a>
+        <div class="flex items-center md:order-2">
+          <a href="login.php"
+            class="text-white hover:bg-brand-strong box-border border border-transparent shadow-xs font-medium leading-5 rounded-lg text-sm px-5 py-3 focus:outline-none bg-[#0062ff] hover:bg-[#0158e6]">Register<i
+              class="fa-solid fa-door-open ms-2"></i></a>
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
+          <div class="relative mt-3 md:hidden">
+            <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+              <svg class="w-4 h-4 text-body" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
+                  d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" />
+              </svg>
+            </div>
+            <input type="text" id="input-group-1"
+              class="block w-full ps-9 pe-3 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base px-2.5 py-2 shadow-xs placeholder:text-body"
+              placeholder="Search">
+          </div>
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary"
+            style="gap: 3rem;">
+            <li>
+              <a href="#home"
+                class="nav-link active block py-2 px-3 color text-normal font-bold rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"><i
+                  class="fa-solid fa-house me-3"></i>Home</a>
+            </li>
+            <li>
+              <a href="#about"
+                class="nav-link block py-2 px-3 text-normal font-bold rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"><i
+                  class="fa-solid fa-bolt me-3"></i>About</a>
+            </li>
+            <li>
+              <a href="#skill"
+                class="nav-link block py-2 px-3 text-normal font-bold rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"><i
+                  class="fa-solid fa-pie-chart me-3"></i>Skill</a>
+            </li>
+            <li>
+              <a href="#project"
+                class="nav-link block py-2 px-3 text-normal font-bold rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"><i
+                  class="fa-solid fa-box-open me-3"></i>Project</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div class="flex justify-center w-full h-96 mt-3">
+      <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.27/build/spline-viewer.js"></script>
+      <spline-viewer url="https://prod.spline.design/o2E9Xcjtpcp13M6c/scene.splinecode"></spline-viewer>
+    </div>
+
+
+
+    <div class="w-full flex justify-center main-section">
+      <div class="text-center">
+        <h1 class="font-bold text-size title text-center text-normal">
+          I'am, <span class="color">Achmad Riziq</span> Al Azzim
+          <i class="fa-solid fa-graduation-cap ms-4 color"></i>
+        </h1>
+
+        <span class="text-4xl text-normal" id="typing"></span>
+
+        <p class="subtitle mt-4 max-w-xl text-center text-normal">
+          Saya Seorang Pemuda Yang Ingin Mencari Kepastian Dunia
+          Dan Duit Untuk Bertahan Dalam Kerasnya Hidup
+        </p>
+
+        <div class="flex justify-center mt-6">
+          <a href="/index_learn_more.html" id="goPage" class="group relative inline-flex items-center gap-3 me-4
+         overflow-hidden
+         bg-[#0062ff] text-white font-medium
+         px-6 py-3.5 rounded-lg
+         transition-all duration-300 ease-in-out
+         hover:bg-[#0158e6]
+         focus:bg-transparent focus:text-[#0062ff]
+         focus:border-2 focus:border-[#0062ff]
+         focus:outline-none">
+
+            <span class="pointer-events-none absolute inset-0
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-white/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full">
+            </span>
+
+            <span class="relative z-10">Learn More</span>
+
+            <i class="fa-solid fa-arrow-right relative z-10
+             transition-transform duration-300
+             group-hover:translate-x-1"></i>
+          </a>
+
+    <a href="/pdf/CV Riziq.pdf" download
+   class="group relative inline-flex items-center gap-3
+          overflow-hidden
+          border-2 border-[#1f1e24]
+          text-[#1f1e24] font-medium
+          px-6 py-3.5 rounded-lg
+          transition-colors duration-300
+          hover:text-white
+          focus:outline-none">
+
+  <span class="absolute inset-0 bg-[#1f1e24]
+               translate-y-full
+               transition-transform duration-300 ease-in-out
+               group-hover:translate-y-0">
+  </span>
+
+  <span class="relative z-10">Get CV</span>
+  <i class="fa-solid fa-file relative z-10"></i>
+</a>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="bg-[#fff]">
+
+
+      <div class="w-full flex justify-center">
+        <div
+          class="w-12 h-12 p-6 flex items-center justify-center rounded-lg mt-32 bg-blue-100 text-[#0062ff] shrink-0">
+          <i class="fa-solid fa-map text-lg"></i>
+        </div>
+      </div>
+
+
+      <h1 class="font-bold text-center text-[#0062ff] mb-2" style="font-size: 32px;">Perjalanan Saya</h1>
+      <p class="font-bold text-normal text-sm text-center mb-5">Sekilas Singkat Sejarah, Informasi Dan Perjalanan Hidup
+        Tentang Saya.</p>
+      <div class="flex justify-center">
+        <div class="decoration rounded-md" style="width: 5rem; height: 0.5rem; background-color: #ffbf00;"></div>
+      </div>
+
+
+      <div class="flex justify-around mt-14">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 gap-8">
+          <div class="...">
+
+            <a href="https://achmadriziqalazzim.github.io/Portofolio-Riziq-2026/" class="group relative overflow-hidden max-w-sm w-full
+         bg-white border border-slate-200 rounded-md p-7 flex gap-4
+         transition-all duration-300
+         hover:-translate-y-1 hover:shadow-lg
+         hover:border-blue-500">
+              <span class="pointer-events-none absolute inset-0 rounded-md
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-blue-200/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full
+           ring-0 group-hover:ring-1 group-hover:ring-blue-500/60
+           transition">
+              </span>
+
+              <div class="w-12 h-12 p-6 flex items-center justify-center rounded-lg
+              bg-[#0062ff] text-white shrink-0">
+                <i class="fa-regular fa-flag text-lg"></i>
+              </div>
+
+              <div>
+                <h4 class="text-sm font-bold text-yellow-500">17+ Tahun</h4>
+                <h1 class="text-lg font-bold text-[#183153]">Lahir Tahun 2008</h1>
+                <p class="text-sm font-medium text-[#183153] mt-2 leading-relaxed">
+                  Achmad Riziq Al Azzim lahir ke dunia pada tahun 2008.
+                </p>
+              </div>
+            </a>
+
+
+
+
+          </div>
+          <div class="...">
+
+            <a href="#" class="group relative overflow-hidden
+         max-w-sm w-full bg-white border border-slate-200 rounded-md p-7 flex gap-4
+         transition-all duration-300
+         hover:shadow-md hover:-translate-y-1 hover:border-blue-300">
+
+              <span class="pointer-events-none absolute inset-0 rounded-md
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-blue-200/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full
+           ring-0 group-hover:ring-1 group-hover:ring-blue-500/60">
+              </span>
+
+              <div class="w-12 h-12 p-6 flex items-center justify-center rounded-lg
+              bg-blue-100 text-[#0062ff] shrink-0">
+                <i class="fa-solid fa-trophy text-lg"></i>
+              </div>
+
+              <div>
+                <h4 class="text-sm font-bold text-gray-500">
+                  12 • Penghargaan
+                </h4>
+                <h1 class="text-lg font-bold text-[#183153]">
+                  Beragam Penghargaan
+                </h1>
+                <p class="text-sm font-medium text-[#183153] mt-2 leading-relaxed">
+                  Saya memiliki beberapa penghargaan nasional resmi.
+                </p>
+              </div>
+            </a>
+
+
+            </a>
+          </div>
+          <div class="...">
+
+            <a href="#" class="group relative overflow-hidden max-w-sm w-full bg-white border border-slate-200 rounded-md p-7 flex gap-4
+         transition-all duration-300 hover:shadow-md hover:-translate-y-1 hover:border-blue-300">
+
+              <span class="pointer-events-none absolute inset-0 rounded-md
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-blue-200/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full
+           ring-0 group-hover:ring-1 group-hover:ring-blue-500/60">
+              </span>
+
+              <div
+                class="w-12 h-12 p-6 flex items-center justify-center rounded-lg bg-blue-100 text-[#0062ff] shrink-0">
+                <i class="fa-solid fa-thumbtack text-lg"></i>
+              </div>
+
+              <div>
+                <h4 class="text-sm font-bold text-gray-500">2+ Alamat</h4>
+                <h1 class="text-lg font-bold text-[#183153]">Alamat Rumah</h1>
+                <p class="text-sm font-medium text-[#183153] mt-2 leading-relaxed">
+                  Saya tinggal di Jl Antasari Gg 12, Kota Samarinda.
+                </p>
+              </div>
+            </a>
+
+
+          </div>
+          <div class="...">
+
+            <a href="https://www.smkn7-smr.sch.id/" class="group relative overflow-hidden max-w-sm w-full bg-white border border-slate-200 rounded-md p-7 flex gap-4
+         transition-all duration-300 hover:shadow-md hover:-translate-y-1 hover:border-blue-300">
+
+              <span class="pointer-events-none absolute inset-0 rounded-md
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-blue-200/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full
+           ring-0 group-hover:ring-1 group-hover:ring-blue-500/60">
+              </span>
+
+              <div
+                class="w-12 h-12 p-6 flex items-center justify-center rounded-lg bg-blue-100 text-[#0062ff] shrink-0">
+                <i class="fa-solid fa-school text-lg"></i>
+              </div>
+
+              <div>
+                <h4 class="text-sm font-bold text-gray-500">SMKN 7 • Samarinda</h4>
+                <h1 class="text-lg font-bold text-[#183153]">Riwayat & Jejak Pendidikan</h1>
+                <p class="text-sm font-medium text-[#183153] mt-2 leading-relaxed">
+                  Saya bersekolah di SMK Negeri 7 Kota Samarinda.
+                </p>
+              </div>
+            </a>
+
+
+          </div>
+          <div class="...">
+
+            <a href="#" class="group relative overflow-hidden max-w-sm w-full bg-white border border-slate-200 rounded-md p-7 flex gap-4
+         transition-all duration-300 hover:shadow-md hover:-translate-y-1 hover:border-blue-300">
+
+              <span class="pointer-events-none absolute inset-0 rounded-md
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-blue-200/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full
+           ring-0 group-hover:ring-1 group-hover:ring-blue-300/60">
+              </span>
+
+              <div
+                class="w-12 h-12 p-6 flex items-center justify-center rounded-lg bg-blue-100 text-[#0062ff] shrink-0">
+                <i class="fa-solid fa-moon text-lg"></i>
+              </div>
+
+              <div>
+                <h4 class="text-sm font-bold text-gray-500">Agama</h4>
+                <h1 class="text-lg font-bold text-[#183153]">Agama Yang Di Anut</h1>
+                <p class="text-sm font-medium text-[#183153] mt-2 leading-relaxed">
+                  Sejak dari lahir saya sudah beragama Muslim.
+                </p>
+              </div>
+            </a>
+
+
+            </a>
+
+          </div>
+          <div class="...">
+
+            <a href="#" class="group relative overflow-hidden max-w-sm w-full bg-white border border-slate-200 rounded-md p-7 flex gap-4
+         transition-all duration-300 hover:shadow-md hover:-translate-y-1 hover:border-blue-300">
+
+              <span class="pointer-events-none absolute inset-0 rounded-md
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-blue-200/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full
+           ring-0 group-hover:ring-1 group-hover:ring-blue-300/60">
+              </span>
+
+              <div
+                class="w-12 h-12 p-6 flex items-center justify-center rounded-lg bg-blue-100 text-[#0062ff] shrink-0">
+                <i class="fa-solid fa-person text-lg"></i>
+              </div>
+
+              <div>
+                <h4 class="text-sm font-bold text-gray-500">Gender</h4>
+                <h1 class="text-lg font-bold text-[#183153]">Jenis Kelamin</h1>
+                <p class="text-sm font-medium text-[#183153] mt-2 leading-relaxed">
+                  Saya Berjenis Kelamin Laki Laki Yang Perkasa.
+                </p>
+              </div>
+            </a>
+
+
+            </a>
+
+          </div>
+          <div class="col-span-full">
+            <a href="https://achmadriziqalazzim.github.io/Portofolio-Riziq-2026/" class="group relative overflow-hidden w-full max-w-sm md:max-w-full
+            bg-white border border-slate-200 rounded-md
+            p-7 flex flex-col md:flex-row gap-6
+            transition-all duration-300
+            hover:-translate-y-1 hover:shadow-lg
+            hover:border-blue-500">
+
+              <span class="pointer-events-none absolute inset-0 rounded-md
+             before:absolute before:top-0 before:-left-full
+             before:h-full before:w-1/3 before:skew-x-12
+             before:bg-gradient-to-r
+             before:from-transparent
+             before:via-blue-200/60
+             before:to-transparent
+             before:transition-all before:duration-700
+             group-hover:before:left-full
+             ring-0 group-hover:ring-1 group-hover:ring-blue-500/60">
+              </span>
+
+              <div class="transform-flat">
+                <div class="w-14 h-14 flex items-center justify-center rounded-lg
+                bg-[#0062ff] text-white shrink-0">
+                  <i class="fa-regular fa-flag text-xl"></i>
+                </div>
+              </div>
+
+              <div class="flex-1">
+                <h4 class="text-sm font-bold text-yellow-500">17+ Tahun</h4>
+                <h1 class="text-xl font-bold text-[#183153] mt-1">
+                  Lahir Tahun 2008
+                </h1>
+
+                <p class="text-sm font-medium text-[#183153] mt-3 leading-relaxed max-w-5xl">
+                  Achmad Riziq Al Azzim lahir ke dunia pada tanggal
+                  1 Desember 2008, Kalimantan Timur, Kota Samarinda.
+                  Di umur saya yang ke 17 Tahun, Saya sangat suka meng
+                  eksplore hal - hal baru yang berbau Teknologi.
+                </p>
+
+                <ul class="flex items-center gap-5 mt-4">
+                  <li class="text-[#dd4b25] text-3xl">
+                    <i class="fa-brands fa-html5"></i>
+                  </li>
+                  <li class="text-[#1e4ade] text-3xl">
+                    <i class="fa-brands fa-css3-alt"></i>
+                  </li>
+                  <li class="text-[#efd81c] text-3xl">
+                    <i class="fa-brands fa-js"></i>
+                  </li>
+                  <li class="text-[#7a11f3] text-3xl">
+                    <i class="fa-brands fa-bootstrap"></i>
+                  </li>
+                  <li>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 33" class="w-8 h-8">
+                      <path fill="#38BDF8" d="M27 0C19.8 0 15.3 3.6 13.5 10.8
+       16.2 7.2 19.35 5.85 22.95 6.75
+       25.05 7.35 26.55 9.15 28.2 11.1
+       30.9 14.4 34.05 18.15 40.5 18.15
+       47.7 18.15 52.2 14.55 54 7.35
+       51.3 10.95 48.15 12.3 44.55 11.4
+       42.45 10.8 40.95 9 39.3 7.05
+       36.6 3.75 33.45 0 27 0z
+       M13.5 18.15C6.3 18.15 1.8 21.75 0 28.95
+       2.7 25.35 5.85 24 9.45 24.9
+       11.55 25.5 13.05 27.3 14.7 29.25
+       17.4 32.55 20.55 36.3 27 36.3
+       34.2 36.3 38.7 32.7 40.5 25.5
+       37.8 29.1 34.65 30.45 31.05 29.55
+       28.95 28.95 27.45 27.15 25.8 25.2
+       23.1 21.9 19.95 18.15 13.5 18.15z" />
+                    </svg>
+
+                  </li>
+                </ul>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+  </section>
+
+
+
+
+
+  <section id="skill">
+    <div class="bg-white">
+      <div class="w-full flex justify-center">
+        <div
+          class="w-12 h-12 p-6 flex items-center justify-center rounded-lg mt-32 bg-blue-100 text-[#0062ff] shrink-0">
+          <i class="fa-solid fa-pie-chart text-lg"></i>
+        </div>
+      </div>
+
+      <h1 class="font-bold text-center text-[#0062ff] mb-2" style="font-size: 32px;">Penguasaan Skill</h1>
+      <p class="font-bold text-normal text-sm text-center mb-5">Informasi Skill Dan Beberapa Keterampilan Yang Saya
+        Kuasai.</p>
+      <div class="flex justify-center">
+        <div class="decoration rounded-md" style="width: 5rem; height: 0.5rem; background-color: #ffbf00;"></div>
+      </div>
+      <div class="flex justify-center mt-16">
+        <div class="overflow-hidden max-w-[80%]">
+          <div class="flex gap-6 w-max animate-right">
+
+            <div class="project5">
+              <a href="https://www.w3schools.com/html/" class="group relative w-80 
+         overflow-hidden
+         bg-white border border-slate-200 rounded-xl
+         p-5 flex items-center gap-5
+         transition-all duration-300
+         hover:shadow-xl
+         hover:border-orange-400">
+
+
+                <span class="absolute left-0 top-0 h-full w-1
+           bg-gradient-to-b from-orange-400 to-orange-200
+           transition-all duration-300
+           group-hover:w-1.5">
+                </span>
+
+
+                <span class="pointer-events-none absolute inset-0
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-orange-200/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full">
+                </span>
+
+
+                <div class="relative z-10 w-16 h-16 flex items-center justify-center
+           rounded-xl bg-orange-50 shrink-0
+           transition-transform duration-300
+           group-hover:scale-105">
+                  <i class="fa-brands fa-html5 text-4xl text-[#dd4b25]"></i>
+                </div>
+
+
+                <div class="relative z-10 flex-1">
+                  <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-bold text-[#183153]">Html</h3>
+                    <span class="text-xs font-semibold
+               text-orange-600 bg-orange-100
+               px-3 py-1 rounded-full">
+                      Advanced
+                    </span>
+                  </div>
+
+                  <div class="mt-2 flex gap-1">
+                    <span class="w-2 h-2 rounded-full bg-orange-500"></span>
+                    <span class="w-2 h-2 rounded-full bg-orange-500"></span>
+                    <span class="w-2 h-2 rounded-full bg-orange-500"></span>
+                    <span class="w-2 h-2 rounded-full bg-orange-500"></span>
+                    <span class="w-2 h-2 rounded-full bg-orange-500"></span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <a href="https://react.dev/" class="project1">
+              <div class="group relative w-80
+         overflow-hidden
+         bg-white border border-slate-200 rounded-xl
+         p-5 flex items-center gap-5
+         transition-all duration-300
+         hover:shadow-xl
+         hover:border-[#00d5f7]/40">
+
+                <span class="absolute left-0 top-0 h-full w-1
+           bg-gradient-to-b from-[#00d5f7]/40 to-[#00d5f7]/20
+           transition-all duration-300
+           group-hover:w-1.5">
+                </span>
+
+                <span class="pointer-events-none absolute inset-0
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-[#00d5f7]/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full">
+                </span>
+
+                <div class="relative z-10 w-16 h-16 flex items-center justify-center
+           rounded-xl bg-[#00d5f7]/10 shrink-0
+           transition-transform duration-300
+           group-hover:scale-105">
+                  <i class="fa-brands fa-react text-[#00d5f7] text-4xl"></i>
+                </div>
+
+                <div class="relative z-10 flex-1">
+                  <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-bold text-[#1831537]">React</h3>
+                    <span class="text-xs font-semibold
+               text-[#00d5f7] bg-[#00d5f7]/10
+               px-3 py-1 rounded-full">
+                      Junior
+                    </span>
+                  </div>
+
+                  <div class="mt-2 flex gap-1">
+                    <span class="w-2 h-2 rounded-full bg-[#00d5f7]"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#00d5f7]"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#00d5f7]/20"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#00d5f7]/20"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#00d5f7]/20"></span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+
+
+
+
+            <a href="https://laravel.com/" class="project1">
+              <div class="group relative w-80
+         overflow-hidden
+         bg-white border border-slate-200 rounded-xl
+         p-5 flex items-center gap-5
+         transition-all duration-300
+         hover:shadow-xl
+         hover:border-[#f72b1f]/40">
+
+                <span class="absolute left-0 top-0 h-full w-1
+           bg-gradient-to-b from-[#f72b1f]/40 to-[#f72b1f]/20
+           transition-all duration-300
+           group-hover:w-1.5">
+                </span>
+
+                <span class="pointer-events-none absolute inset-0
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-[#f72b1f]/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full">
+                </span>
+
+                <div class="relative z-10 w-16 h-16 flex items-center justify-center
+           rounded-xl bg-[#f72b1f]/10 shrink-0
+           transition-transform duration-300
+           group-hover:scale-105">
+                  <i class="fa-brands fa-laravel text-[#f72b1f] text-4xl"></i>
+                </div>
+
+                <div class="relative z-10 flex-1">
+                  <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-bold text-[#183153]">Laravel</h3>
+                    <span class="text-xs font-semibold
+               text-[#f72b1f] bg-[#f72b1f]/10
+               px-3 py-1 rounded-full">
+                      Ekspert
+                    </span>
+                  </div>
+
+                  <div class="mt-2 flex gap-1">
+                    <span class="w-2 h-2 rounded-full bg-[#f72b1f]"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#f72b1f]"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#f72b1f]"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#f72b1f]"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#f72b1f]/20"></span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="https://www.w3schools.com/js/default.asp" class="project2">
+              <div class="group relative w-80
+         overflow-hidden
+         bg-white border border-slate-200 rounded-xl
+         p-5 flex items-center gap-5
+         transition-all duration-300
+         hover:shadow-xl
+         hover:border-yellow-400">
+
+                <span class="absolute left-0 top-0 h-full w-1
+           bg-gradient-to-b from-yellow-400 to-yellow-200
+           transition-all duration-300
+           group-hover:w-1.5">
+                </span>
+
+                <span class="pointer-events-none absolute inset-0
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-yellow-200/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full">
+                </span>
+
+                <div class="relative z-10 w-16 h-16 flex items-center justify-center
+           rounded-xl bg-yellow-50 shrink-0
+           transition-transform duration-300
+           group-hover:scale-105">
+                  <i class="fa-brands fa-js text-4xl text-[#efd81c]"></i>
+                </div>
+
+                <div class="relative z-10 flex-1">
+                  <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-bold text-[#183153]">Javascript</h3>
+                    <span class="text-xs font-semibold
+               text-yellow-600 bg-yellow-100
+               px-3 py-1 rounded-full">
+                      Junior
+                    </span>
+                  </div>
+
+                  <div class="mt-2 flex gap-1">
+                    <span class="w-2 h-2 rounded-full bg-yellow-500"></span>
+                    <span class="w-2 h-2 rounded-full bg-yellow-500"></span>
+                    <span class="w-2 h-2 rounded-full bg-yellow-200"></span>
+                    <span class="w-2 h-2 rounded-full bg-yellow-200"></span>
+                    <span class="w-2 h-2 rounded-full bg-yellow-200"></span>
+                  </div>
+                </div>
+              </div>
+
+            </a>
+            <div class="project3">
+              <a href="https://www.w3schools.com/css/default.asp" class="group relative w-80 
+         overflow-hidden
+         bg-white border border-slate-200 rounded-xl
+         p-5 flex items-center gap-5
+         transition-all duration-300
+         hover:shadow-xl
+         hover:border-blue-400">
+
+
+                <span class="absolute left-0 top-0 h-full w-1
+           bg-gradient-to-b from-blue-400 to-blue-200
+           transition-all duration-300
+           group-hover:w-1.5">
+                </span>
+
+
+                <span class="pointer-events-none absolute inset-0
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-blue-200/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full">
+                </span>
+
+
+                <div class="relative z-10 w-16 h-16 flex items-center justify-center
+           rounded-xl bg-blue-50 shrink-0
+           transition-transform duration-300
+           group-hover:scale-105">
+                  <i class="fa-brands fa-css3-alt text-4xl text-[#1e4ade]"></i>
+                </div>
+
+
+                <div class="relative z-10 flex-1">
+                  <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-bold text-[#183153]">CSS</h3>
+                    <span class="text-xs font-semibold
+               text-blue-600 bg-blue-100
+               px-3 py-1 rounded-full">
+                      Advanced
+                    </span>
+                  </div>
+
+                  <div class="mt-2 flex gap-1">
+                    <span class="w-2 h-2 rounded-full bg-blue-500"></span>
+                    <span class="w-2 h-2 rounded-full bg-blue-500"></span>
+                    <span class="w-2 h-2 rounded-full bg-blue-500"></span>
+                    <span class="w-2 h-2 rounded-full bg-blue-500"></span>
+                    <span class="w-2 h-2 rounded-full bg-blue-500"></span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <a href="https://www.w3schools.com/html/" class="project4">
+              <div class="group relative w-80 
+         overflow-hidden
+         bg-white border border-slate-200 rounded-xl
+         p-5 flex items-center gap-5
+         transition-all duration-300
+         hover:shadow-xl
+         hover:border-orange-400">
+
+
+                <span class="absolute left-0 top-0 h-full w-1
+           bg-gradient-to-b from-orange-400 to-orange-200
+           transition-all duration-300
+           group-hover:w-1.5">
+                </span>
+
+
+                <span class="pointer-events-none absolute inset-0
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-orange-200/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full">
+                </span>
+
+
+                <div class="relative z-10 w-16 h-16 flex items-center justify-center
+           rounded-xl bg-orange-50 shrink-0
+           transition-transform duration-300
+           group-hover:scale-105">
+                  <i class="fa-brands fa-html5 text-4xl text-[#dd4b25]"></i>
+                </div>
+
+
+                <div class="relative z-10 flex-1">
+                  <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-bold text-[#183153]">Html</h3>
+                    <span class="text-xs font-semibold
+               text-orange-600 bg-orange-100
+               px-3 py-1 rounded-full">
+                      Advanced
+                    </span>
+                  </div>
+
+                  <div class="mt-2 flex gap-1">
+                    <span class="w-2 h-2 rounded-full bg-orange-500"></span>
+                    <span class="w-2 h-2 rounded-full bg-orange-500"></span>
+                    <span class="w-2 h-2 rounded-full bg-orange-500"></span>
+                    <span class="w-2 h-2 rounded-full bg-orange-500"></span>
+                    <span class="w-2 h-2 rounded-full bg-orange-500"></span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://react.dev/" class="project5">
+              <div class="group relative w-80
+         overflow-hidden
+         bg-white border border-slate-200 rounded-xl
+         p-5 flex items-center gap-5
+         transition-all duration-300
+         hover:shadow-xl
+         hover:border-[#00d5f7]/100">
+
+                <span class="absolute left-0 top-0 h-full w-1
+           bg-gradient-to-b from-[#00d5f7]/40 to-[#00d5f7]/20
+           transition-all duration-300
+           group-hover:w-1.5">
+                </span>
+
+                <span class="pointer-events-none absolute inset-0
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-[#00d5f7]/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full">
+                </span>
+
+                <div class="relative z-10 w-16 h-16 flex items-center justify-center
+           rounded-xl bg-[#00d5f7]/10 shrink-0
+           transition-transform duration-300
+           group-hover:scale-105">
+                  <i class="fa-brands fa-react text-[#00d5f7] text-4xl"></i>
+                </div>
+
+                <div class="relative z-10 flex-1">
+                  <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-bold text-[#1831537]">React</h3>
+                    <span class="text-xs font-semibold
+               text-[#00d5f7]/100 bg-[#00d5f7]/10
+               px-3 py-1 rounded-full">
+                      Junior
+                    </span>
+                  </div>
+
+                  <div class="mt-2 flex gap-1">
+                    <span class="w-2 h-2 rounded-full bg-[#00d5f7]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#00d5f7]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#00d5f7]/20"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#00d5f7]/20"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#00d5f7]/20"></span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+          </div>
+        </div>
+
+
+      </div>
+      <div class="flex justify-center pb-32">
+        <div class="overflow-hidden mt-8 max-w-[80%]">
+          <div class="flex gap-6 w-max animate-left">
+
+            <a href="https://www.figma.com/" class="project1">
+              <div class="group relative w-80
+           overflow-hidden
+           bg-white border border-slate-200 rounded-xl
+           p-5 flex items-center gap-5
+           transition-all duration-300
+           hover:shadow-lg
+           hover:border-[#A259FF]/50">
+
+
+                <span class="pointer-events-none absolute inset-0
+             before:absolute before:top-0 before:-left-full
+             before:h-full before:w-1/4 before:skew-x-12
+             before:bg-gradient-to-r
+             before:from-transparent
+             before:via-[#A259FF]/30
+             before:to-transparent
+             before:transition-all before:duration-700
+             group-hover:before:left-full">
+                </span>
+
+                <div class="relative z-10 w-16 h-16 flex items-center justify-center
+             rounded-xl
+             bg-gradient-to-br
+             from-[#A259FF]/15
+             via-[#1ABCFE]/15
+             to-[#0ACF83]/15
+             shrink-0
+             transition-transform duration-300
+             group-hover:scale-[1.03]">
+
+                  <i class="fa-brands fa-figma text-4xl
+               bg-[conic-gradient(at_top_left,_#F24E1E,_#A259FF,_#1ABCFE,_#0ACF83,_#FF7262)]
+               bg-clip-text text-transparent">
+                  </i>
+                </div>
+
+                <div class="relative z-10 flex-1">
+                  <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-bold text-slate-800">
+                      Figma
+                    </h3>
+
+                    <span class="text-xs font-semibold
+                 bg-[linear-gradient(135deg,_#F24E1E,_#A259FF,_#1ABCFE,_#0ACF83)]
+                 bg-clip-text text-transparent
+                 border border-slate-200
+                 px-3 py-1 rounded-full">
+                      Junior
+                    </span>
+                  </div>
+
+                  <div class="mt-2 flex gap-1">
+                    <span class="w-2 h-2 rounded-full bg-[#F24E1E]"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#A259FF]"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#1ABCFE]"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#0ACF83]"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#FF7262]"></span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://tailwindcss.com/" class="project2">
+              <div class="group relative w-80
+         overflow-hidden
+         bg-white border border-slate-200 rounded-xl
+         p-5 flex items-center gap-5
+         transition-all duration-300
+         hover:shadow-xl
+         hover:border-[#38bdf8]/100">
+
+                <span class="absolute left-0 top-0 h-full w-1
+           bg-gradient-to-b from-[#38bdf8]/40 to-[#38bdf8]/20
+           transition-all duration-300
+           group-hover:w-1.5">
+                </span>
+
+                <span class="pointer-events-none absolute inset-0
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-[#38bdf8]/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full">
+                </span>
+
+                <div class="relative z-10 w-16 h-16 flex items-center justify-center
+           rounded-xl bg-[#38bdf8]/10 shrink-0
+           transition-transform duration-300
+           group-hover:scale-105">
+                  <svg viewBox="0 0 256 154" class="w-9 h-9 text-[#00d5f7]" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M128 0C93.867 0 72.533 17.067 64 51.2C76.8 34.133 91.733 27.733 108.8 32C118.567 34.433 125.467 41.6 133.067 49.6C145.333 62.4 159.467 77.867 192 77.867C226.133 77.867 247.467 60.8 256 26.667C243.2 43.733 228.267 50.133 211.2 45.867C201.433 43.433 194.533 36.267 186.933 28.267C174.667 15.467 160.533 0 128 0ZM64 77.867C29.867 77.867 8.533 94.933 0 129.067C12.8 112 27.733 105.6 44.8 109.867C54.567 112.3 61.467 119.467 69.067 127.467C81.333 140.267 95.467 155.733 128 155.733C162.133 155.733 183.467 138.667 192 104.533C179.2 121.6 164.267 128 147.2 123.733C137.433 121.3 130.533 114.133 122.933 106.133C110.667 93.333 96.533 77.867 64 77.867Z" />
+                  </svg>
+
+
+                </div>
+
+                <div class="relative z-10 flex-1">
+                  <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-bold text-[#183153]">Tailwind</h3>
+                    <span class="text-xs font-semibold
+               text-[#38bdf8]/100 bg-[#38bdf8]/10
+               px-3 py-1 rounded-full">
+                      Middle
+                    </span>
+                  </div>
+
+                  <div class="mt-2 flex gap-1">
+                    <span class="w-2 h-2 rounded-full bg-[#38bdf8]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#38bdf8]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#38bdf8]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#38bdf8]/20"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#38bdf8]/20"></span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="https://codepen.io/" class="project3">
+              <div class="group relative w-80
+         overflow-hidden
+         bg-white border border-slate-200 rounded-xl
+         p-5 flex items-center gap-5
+         transition-all duration-300
+         hover:shadow-xl
+         hover:border-[#000000]/100">
+
+                <span class="absolute left-0 top-0 h-full w-1
+           bg-gradient-to-b from-[#000000]/40 to-[#000000]/20
+           transition-all duration-300
+           group-hover:w-1.5">
+                </span>
+
+                <span class="pointer-events-none absolute inset-0
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-[#000000]/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full">
+                </span>
+
+                <div class="relative z-10 w-16 h-16 flex items-center justify-center
+           rounded-xl bg-[#000000]/10 shrink-0
+           transition-transform duration-300
+           group-hover:scale-105">
+                  <i class="fa-brands fa-codepen text-4xl text-[#000000]"></i>
+                </div>
+
+                <div class="relative z-10 flex-1">
+                  <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-bold text-[#183153]">Codepen</h3>
+                    <span class="text-xs font-semibold
+               text-black/100 bg-[#000000]/10
+               px-3 py-1 rounded-full">
+                      Middle
+                    </span>
+                  </div>
+
+                  <div class="mt-2 flex gap-1">
+                    <span class="w-2 h-2 rounded-full bg-black/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-black/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-black/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-black/20"></span>
+                    <span class="w-2 h-2 rounded-full bg-black/20"></span>
+                  </div>
+                </div>
+              </div>
+
+            </a>
+            <a href="https://getbootstrap.com/" class="project4">
+              <div class="group relative w-80 
+         overflow-hidden
+         bg-white border border-slate-200 rounded-xl
+         p-5 flex items-center gap-5
+         transition-all duration-300
+         hover:shadow-xl
+         hover:border-[#8210f5]/100">
+
+
+                <span class="absolute left-0 top-0 h-full w-1
+           bg-gradient-to-b from-[#8210f5]/40 to-[#8210f5]/20
+           transition-all duration-300
+           group-hover:w-1.5">
+                </span>
+
+
+                <span class="pointer-events-none absolute inset-0
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-[#8210f5]/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full">
+                </span>
+
+
+                <div class="relative z-10 w-16 h-16 flex items-center justify-center
+           rounded-xl bg-[#8210f5]/10 shrink-0
+           transition-transform duration-300
+           group-hover:scale-105">
+                  <i class="fa-brands fa-bootstrap text-4xl text-[#8210f5]"></i>
+                </div>
+
+
+                <div class="relative z-10 flex-1">
+                  <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-bold text-[#183153]">Bootstrap</h3>
+                    <span class="text-xs font-semibold
+               text-[#8210f5]/100 bg-[#8210f5]/10
+               px-3 py-1 rounded-full">
+                      Advanced
+                    </span>
+                  </div>
+
+                  <div class="mt-2 flex gap-1">
+                    <span class="w-2 h-2 rounded-full bg-[#8210f5]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#8210f5]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#8210f5]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#8210f5]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#8210f5]/100"></span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="https://developer.android.com/studio" class="project5">
+              <div class="group relative w-80 
+         overflow-hidden
+         bg-white border border-slate-200 rounded-xl
+         p-5 flex items-center gap-5
+         transition-all duration-300
+         hover:shadow-xl
+         hover:border-[#4081ec]/100">
+
+
+                <span class="absolute left-0 top-0 h-full w-1
+           bg-gradient-to-b from-[#4081ec]/40 to-[#4081ec]/20
+           transition-all duration-300
+           group-hover:w-1.5">
+                </span>
+
+
+                <span class="pointer-events-none absolute inset-0
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-[#4081ec]/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full">
+                </span>
+
+
+                <div class="relative z-10 w-16 h-16 flex items-center justify-center
+           rounded-xl bg-[#4081ec]/10 shrink-0
+           transition-transform duration-300
+           group-hover:scale-105">
+                  <i class="fa-brands fa-android text-4xl text-[#4081ec]"></i>
+                </div>
+
+
+                <div class="relative z-10 flex-1">
+                  <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-bold text-[#183153]">Android Studio</h3>
+                    <span class="text-xs font-semibold
+               text-[#4081ec]/100 bg-[#4081ec]/10
+               px-3 py-1 rounded-full">
+                      Ekspert
+                    </span>
+                  </div>
+
+                  <div class="mt-2 flex gap-1">
+                    <span class="w-2 h-2 rounded-full bg-[#4081ec]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#4081ec]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#4081ec]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#4081ec]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#4081ec]/20"></span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://www.figma.com/" class="project1">
+              <div class="group relative w-80
+           overflow-hidden
+           bg-white border border-slate-200 rounded-xl
+           p-5 flex items-center gap-5
+           transition-all duration-300
+           hover:shadow-lg
+           hover:border-[#A259FF]/50">
+
+
+                <span class="pointer-events-none absolute inset-0
+             before:absolute before:top-0 before:-left-full
+             before:h-full before:w-1/4 before:skew-x-12
+             before:bg-gradient-to-r
+             before:from-transparent
+             before:via-[#A259FF]/30
+             before:to-transparent
+             before:transition-all before:duration-700
+             group-hover:before:left-full">
+                </span>
+
+                <div class="relative z-10 w-16 h-16 flex items-center justify-center
+             rounded-xl
+             bg-gradient-to-br
+             from-[#A259FF]/15
+             via-[#1ABCFE]/15
+             to-[#0ACF83]/15
+             shrink-0
+             transition-transform duration-300
+             group-hover:scale-[1.03]">
+
+                  <i class="fa-brands fa-figma text-4xl
+               bg-[conic-gradient(at_top_left,_#F24E1E,_#A259FF,_#1ABCFE,_#0ACF83,_#FF7262)]
+               bg-clip-text text-transparent">
+                  </i>
+                </div>
+
+                <div class="relative z-10 flex-1">
+                  <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-bold text-slate-800">
+                      Figma
+                    </h3>
+
+                    <span class="text-xs font-semibold
+                 bg-[linear-gradient(135deg,_#F24E1E,_#A259FF,_#1ABCFE,_#0ACF83)]
+                 bg-clip-text text-transparent
+                 border border-slate-200
+                 px-3 py-1 rounded-full">
+                      Junior
+                    </span>
+                  </div>
+
+                  <div class="mt-2 flex gap-1">
+                    <span class="w-2 h-2 rounded-full bg-[#F24E1E]"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#A259FF]"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#1ABCFE]"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#0ACF83]"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#FF7262]"></span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://tailwindcss.com/" class="project2">
+              <div class="group relative w-80
+         overflow-hidden
+         bg-white border border-slate-200 rounded-xl
+         p-5 flex items-center gap-5
+         transition-all duration-300
+         hover:shadow-xl
+         hover:border-[#38bdf8]/100">
+
+                <span class="absolute left-0 top-0 h-full w-1
+           bg-gradient-to-b from-[#38bdf8]/40 to-[#38bdf8]/20
+           transition-all duration-300
+           group-hover:w-1.5">
+                </span>
+
+                <span class="pointer-events-none absolute inset-0
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-[#38bdf8]/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full">
+                </span>
+
+                <div class="relative z-10 w-16 h-16 flex items-center justify-center
+           rounded-xl bg-[#38bdf8]/10 shrink-0
+           transition-transform duration-300
+           group-hover:scale-105">
+                  <svg viewBox="0 0 256 154" class="w-9 h-9 text-[#00d5f7]" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M128 0C93.867 0 72.533 17.067 64 51.2C76.8 34.133 91.733 27.733 108.8 32C118.567 34.433 125.467 41.6 133.067 49.6C145.333 62.4 159.467 77.867 192 77.867C226.133 77.867 247.467 60.8 256 26.667C243.2 43.733 228.267 50.133 211.2 45.867C201.433 43.433 194.533 36.267 186.933 28.267C174.667 15.467 160.533 0 128 0ZM64 77.867C29.867 77.867 8.533 94.933 0 129.067C12.8 112 27.733 105.6 44.8 109.867C54.567 112.3 61.467 119.467 69.067 127.467C81.333 140.267 95.467 155.733 128 155.733C162.133 155.733 183.467 138.667 192 104.533C179.2 121.6 164.267 128 147.2 123.733C137.433 121.3 130.533 114.133 122.933 106.133C110.667 93.333 96.533 77.867 64 77.867Z" />
+                  </svg>
+
+
+                </div>
+
+                <div class="relative z-10 flex-1">
+                  <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-bold text-[#183153]">Tailwind</h3>
+                    <span class="text-xs font-semibold
+               text-[#38bdf8]/100 bg-[#38bdf8]/10
+               px-3 py-1 rounded-full">
+                      Middle
+                    </span>
+                  </div>
+
+                  <div class="mt-2 flex gap-1">
+                    <span class="w-2 h-2 rounded-full bg-[#38bdf8]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#38bdf8]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#38bdf8]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#38bdf8]/20"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#38bdf8]/20"></span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="https://codepen.io/" class="project3">
+              <div class="group relative w-80
+         overflow-hidden
+         bg-white border border-slate-200 rounded-xl
+         p-5 flex items-center gap-5
+         transition-all duration-300
+         hover:shadow-xl
+         hover:border-[#000000]/100">
+
+                <span class="absolute left-0 top-0 h-full w-80
+           bg-gradient-to-b from-[#000000]/40 to-[#000000]/20
+           transition-all duration-300
+           group-hover:w-1.5">
+                </span>
+
+                <span class="pointer-events-none absolute inset-0
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-[#000000]/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full">
+                </span>
+
+                <div class="relative z-10 w-16 h-16 flex items-center justify-center
+           rounded-xl bg-[#000000]/10 shrink-0
+           transition-transform duration-300
+           group-hover:scale-105">
+                  <i class="fa-brands fa-codepen text-4xl text-[#000000]"></i>
+                </div>
+
+                <div class="relative z-10 flex-1">
+                  <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-bold text-[#183153]">Codepen</h3>
+                    <span class="text-xs font-semibold
+               text-black/100 bg-[#000000]/10
+               px-3 py-1 rounded-full">
+                      Middle
+                    </span>
+                  </div>
+
+                  <div class="mt-2 flex gap-1">
+                    <span class="w-2 h-2 rounded-full bg-black/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-black/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-black/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-black/20"></span>
+                    <span class="w-2 h-2 rounded-full bg-black/20"></span>
+                  </div>
+                </div>
+              </div>
+
+            </a>
+            <a href="https://getbootstrap.com/" class="project4">
+              <div class="group relative w-80 
+         overflow-hidden
+         bg-white border border-slate-200 rounded-xl
+         p-5 flex items-center gap-5
+         transition-all duration-300
+         hover:shadow-xl
+         hover:border-[#8210f5]/100">
+
+
+                <span class="absolute left-0 top-0 h-full w-1
+           bg-gradient-to-b from-[#8210f5]/40 to-[#8210f5]/20
+           transition-all duration-300
+           group-hover:w-1.5">
+                </span>
+
+
+                <span class="pointer-events-none absolute inset-0
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-[#8210f5]/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full">
+                </span>
+
+
+                <div class="relative z-10 w-16 h-16 flex items-center justify-center
+           rounded-xl bg-[#8210f5]/10 shrink-0
+           transition-transform duration-300
+           group-hover:scale-105">
+                  <i class="fa-brands fa-bootstrap text-4xl text-[#8210f5]"></i>
+                </div>
+
+
+                <div class="relative z-10 flex-1">
+                  <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-bold text-[#183153]">Bootstrap</h3>
+                    <span class="text-xs font-semibold
+               text-[#8210f5]/100 bg-[#8210f5]/10
+               px-3 py-1 rounded-full">
+                      Advanced
+                    </span>
+                  </div>
+
+                  <div class="mt-2 flex gap-1">
+                    <span class="w-2 h-2 rounded-full bg-[#8210f5]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#8210f5]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#8210f5]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#8210f5]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#8210f5]/100"></span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="https://developer.android.com/studio" class="project5">
+              <div class="group relative w-80 
+         overflow-hidden
+         bg-white border border-slate-200 rounded-xl
+         p-5 flex items-center gap-5
+         transition-all duration-300
+         hover:shadow-xl
+         hover:border-[#4081ec]/100">
+
+
+                <span class="absolute left-0 top-0 h-full w-1
+           bg-gradient-to-b from-[#4081ec]/40 to-[#4081ec]/20
+           transition-all duration-300
+           group-hover:w-1.5">
+                </span>
+
+
+                <span class="pointer-events-none absolute inset-0
+           before:absolute before:top-0 before:-left-full
+           before:h-full before:w-1/3 before:skew-x-12
+           before:bg-gradient-to-r
+           before:from-transparent
+           before:via-[#4081ec]/60
+           before:to-transparent
+           before:transition-all before:duration-700
+           group-hover:before:left-full">
+                </span>
+
+
+                <div class="relative z-10 w-16 h-16 flex items-center justify-center
+           rounded-xl bg-[#4081ec]/10 shrink-0
+           transition-transform duration-300
+           group-hover:scale-105">
+                  <i class="fa-brands fa-android text-4xl text-[#4081ec]"></i>
+                </div>
+
+
+                <div class="relative z-10 flex-1">
+                  <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-bold text-[#183153]">Android Studio</h3>
+                    <span class="text-xs font-semibold
+               text-[#4081ec]/100 bg-[#4081ec]/10
+               px-3 py-1 rounded-full">
+                      Ekspert
+                    </span>
+                  </div>
+
+                  <div class="mt-2 flex gap-1">
+                    <span class="w-2 h-2 rounded-full bg-[#4081ec]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#4081ec]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#4081ec]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#4081ec]/100"></span>
+                    <span class="w-2 h-2 rounded-full bg-[#4081ec]/20"></span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- <div class="video-wrapper" data-aos="zoom-in">
+  <div class="video-content">
+    <h1>History And Farewell</h1>
+    <p>State Junior High School 4 Samarinda</p>
+  </div>
+
+  <button class="video-control" id="videoControl">
+  <i class="fa-solid fa-pause"></i>
+</button>
+
+
+  <video id="myVideo" autoplay loop muted playsinline>
+    <source src="video/ssstik.io_1751006825409.mp4" type="video/mp4">
+  </video>
+</div> -->
+
+
+    </div>
+  </section>
+
+  <section id="project">
+    <div class="bg-transparent">
+      <div class="w-full flex justify-center">
+        <div
+          class="w-12 h-12 p-6 flex items-center justify-center rounded-lg mt-32 bg-blue-100 text-[#0062ff] shrink-0">
+          <i class="fa-solid fa-box-open text-lg"></i>
+        </div>
+      </div>
+
+      <h1 class="font-bold text-center text-[#0062ff] mb-2" style="font-size: 32px;">Library Project</h1>
+      <p class="font-bold text-normal text-sm text-center mb-5">Kumpulan project dan informasi lengkap tentang project
+        yang telah dibuat.</p>
+      <div class="flex justify-center">
+        <div class="decoration rounded-md" style="width: 5rem; height: 0.5rem; background-color: #ffbf00;"></div>
+      </div>
+
+      <div id="default-carousel" class="relative w-full mt-16 z-1" data-carousel="slide">
+        <div class="relative h-56 overflow-hidden rounded-base md:h-96">
+
+          <div class="duration-700 ease-in-out" data-carousel-item="active">
+            <img src="/img/Cuplikan layar 2025-12-25 133709.png" class="w-full h-full object-contain mx-auto" />
+          </div>
+
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/img/Cuplikan layar 2025-11-29 172754.png" class="w-full h-full object-contain mx-auto" />
+          </div>
+
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/img/Cuplikan layar 2025-12-10 122307.png" class="w-full h-full object-contain mx-auto" />
+          </div>
+
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/img/Cuplikan layar 2025-12-13 130458.png" class="w-full h-full object-contain mx-auto" />
+          </div>
+
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/img/Cuplikan layar 2025-12-17 232624.png" class="w-full h-full object-contain mx-auto" />
+          </div>
+
+        </div>
+
+        <div class="absolute z-20 flex -translate-x-1/2 translate-y-2 left-1/2 space-x-3">
+          <button class="w-3 h-3 rounded-full bg-blue-600/100" data-carousel-slide-to="0"></button>
+          <button class="w-3 h-3 rounded-full bg-blue-600/100" data-carousel-slide-to="1"></button>
+          <button class="w-3 h-3 rounded-full bg-blue-600/100" data-carousel-slide-to="2"></button>
+          <button class="w-3 h-3 rounded-full bg-blue-600/100" data-carousel-slide-to="3"></button>
+          <button class="w-3 h-3 rounded-full bg-blue-600/100" data-carousel-slide-to="4"></button>
+        </div>
+
+        <button type="button" class="absolute top-0 left-60 z-30 flex items-center justify-center h-full px-4"
+          data-carousel-prev>
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-blue-600/30 hover:bg-blue-600/50">
+            ‹
+          </span>
+        </button>
+
+        <button type="button" class="absolute top-0 right-60 z-30 flex items-center justify-center h-full px-4"
+          data-carousel-next>
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-blue-600/30 hover:bg-blue-600/50">
+            ›
+          </span>
+        </button>
+
+      </div>
+
+    </div>
+
+
+  </section>
+
+
+  <section id="search">
+    <div class="bg-white mt-32">
+      <div class="w-full flex justify-center">
+        <div
+          class="w-12 h-12 p-6 flex items-center justify-center rounded-lg mt-32 bg-blue-100 text-[#0062ff] shrink-0">
+          <i class="fa-solid fa-magnifying-glass text-lg"></i>
+        </div>
+      </div>
+
+      <h1 class="font-bold text-center text-[#0062ff] mb-2" style="font-size: 32px;">Pusat Informasi</h1>
+      <p class="font-bold text-normal text-sm text-center mb-5">Penyedian pencarian informasi skill dan keahlian yang
+        saya punya.</p>
+      <div class="flex justify-center">
+        <div class="decoration rounded-md" style="width: 5rem; height: 0.5rem; background-color: #ffbf00;"></div>
+      </div>
+      <div class="flex justify-center">
+        <div class="w-full lg:max-w-[70%] bg-transparent rounded-xl p-6">
+
+          <div class="flex gap-3">
+
+
+            <form class="mx-auto">
+              <div class="flex rounded-base -space-x-0.5">
+                <label for="search-dropdown" class="block mb-2.5 text-sm font-medium text-heading sr-only ">Your
+                  Email</label>
+                <select id="category"
+                  class="inline-flex items-center shrink-0 z-10 text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading font-medium leading-5 rounded-s-xl text-sm px-4 py-2.5 focus:outline-none">
+                  <option value="all"> <svg class="w-4 h-4 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                      width="24" height="24" fill="none" viewBox="0 0 24 24">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M9.143 4H4.857A.857.857 0 0 0 4 4.857v4.286c0 .473.384.857.857.857h4.286A.857.857 0 0 0 10 9.143V4.857A.857.857 0 0 0 9.143 4Zm10 0h-4.286a.857.857 0 0 0-.857.857v4.286c0 .473.384.857.857.857h4.286A.857.857 0 0 0 20 9.143V4.857A.857.857 0 0 0 19.143 4Zm-10 10H4.857a.857.857 0 0 0-.857.857v4.286c0 .473.384.857.857.857h4.286a.857.857 0 0 0 .857-.857v-4.286A.857.857 0 0 0 9.143 14Zm10 0h-4.286a.857.857 0 0 0-.857.857v4.286c0 .473.384.857.857.857h4.286a.857.857 0 0 0 .857-.857v-4.286a.857.857 0 0 0-.857-.857Z" />
+                    </svg>
+                    Semua
+                    <svg class="w-4 h-4 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                      height="24" fill="none" viewBox="0 0 24 24">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="m19 9-7 7-7-7" />
+                    </svg>
+                  </option>
+                  <option value="frontend">Frontend</option>
+                  <option value="backend">Backend</option>
+                  <option value="design">Design</option>
+                </select>
+                <input type="text" id="searchInput"
+                  class="px-3 py-3 bg-neutral-secondary-medium border border-default-medium text-heading text-sm block w-[53.5dvw]  placeholder:text-body"
+                  placeholder="Search for products" required>
+                <button type="button" id="searchBtn"
+                  class="inline-flex items-center  text-white bg-brand hover:bg-brand-strong box-border border border-transparent bg-[#0062ff] hover:bg-[#0059e7] shadow-xs font-medium leading-5 rounded-e-xl text-sm px-4 py-2.5 focus:outline-none">
+                  <svg class="w-4 h-4 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                    height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
+                      d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" />
+                  </svg>
+                  Search
+                </button>
+              </div>
+            </form>
+
+
+          </div>
+
+          <div id="list" class="space-y-3 overflow-y-scroll max-h-[60%] hide-scrollbar mt-5">
+            <div
+              class="item p-2.5 ps-5 border rounded-lg text-orange-600 font-bold flex items-center hover:border cursor-pointer hover:border-orange-600"
+              data-category="frontend"><i class="fa-brands fa-html5 text-3xl text-orange-600 me-3"></i>Html</div>
+            <div
+              class="item p-2.5 ps-5 border rounded-lg text-blue-600 font-bold flex items-center hover:border cursor-pointer hover:border-blue-600"
+              data-category="frontend"><i class="fa-brands fa-css3-alt text-3xl text-blue-600 me-3"></i>Css</div>
+            <div
+              class="item p-2.5 ps-5 border rounded-lg text-red-600 font-bold flex items-center hover:border cursor-pointer hover:border-red-600"
+              data-category="backend"><i class="fa-brands fa-laravel text-3xl text-red-600 me-3"></i>Laravel</div>
+            <div
+              class="item p-2.5 ps-5 border rounded-lg text-[#4081ec] font-bold flex items-center hover:border cursor-pointer hover:border-[#4081ec]"
+              data-category="backend"><i class="fa-brands fa-android text-3xl text-[#4081ec] me-3"></i>Android Studio
+            </div>
+            <div
+              class="item p-2.5 ps-5 border rounded-lg text-black font-bold flex items-center hover:border cursor-pointer hover:border-black"
+              data-category="backend"><i class="fa-brands fa-codepen text-3xl text-black me-3"></i>Codepen</div>
+            <div
+              class="item p-2.5 ps-5 border rounded-lg text-purple-600 font-bold flex items-center hover:border cursor-pointer hover:border-purple-600"
+              data-category="frontend"><i class="fa-brands fa-bootstrap text-3xl text-purple-600 me-3"></i>Bootstrap
+            </div>
+            <div
+              class="item p-2.5 ps-5 border rounded-lg text-[#31b8f6] font-bold flex items-center hover:border cursor-pointer hover:border-[#31b8f6]"
+              data-category="frontend"><svg viewBox="0 0 256 154" class="w-9 h-9 text-[#00d5f7] me-2"
+                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M128 0C93.867 0 72.533 17.067 64 51.2C76.8 34.133 91.733 27.733 108.8 32C118.567 34.433 125.467 41.6 133.067 49.6C145.333 62.4 159.467 77.867 192 77.867C226.133 77.867 247.467 60.8 256 26.667C243.2 43.733 228.267 50.133 211.2 45.867C201.433 43.433 194.533 36.267 186.933 28.267C174.667 15.467 160.533 0 128 0ZM64 77.867C29.867 77.867 8.533 94.933 0 129.067C12.8 112 27.733 105.6 44.8 109.867C54.567 112.3 61.467 119.467 69.067 127.467C81.333 140.267 95.467 155.733 128 155.733C162.133 155.733 183.467 138.667 192 104.533C179.2 121.6 164.267 128 147.2 123.733C137.433 121.3 130.533 114.133 122.933 106.133C110.667 93.333 96.533 77.867 64 77.867Z" />
+              </svg>Tailwind</div>
+            <div
+              class="item p-2.5 ps-5 border rounded-lg text-black font-bold flex items-center hover:border cursor-pointer hover:border-black"
+              data-category="design"><i class="fa-brands fa-figma text-3xl text-black me-3"></i>Figma</div>
+          </div>
+
+          <p id="notFound" class="hidden mt-6 text-center font-semibold text-blue-600">
+            Data tidak ditemukan 😜
+          </p>
+        </div>
+      </div>
+
+      <footer class="footer bg-white mt-0 pt-0 flex justify-center">
+        <div class="footer-container mb-5 w-full max-w-screen-xl">
+
+
+          <div class="footer-left">
+            <div class="footer-brand">
+              <!-- <span class="logo-footer"><img src="/Main_Logo.png" style="width: 10dvh;"></span> -->
+              <span class="name-footer">Dev <span style="color: #0062ff;">| Riziq</span></span>
+            </div>
+
+            <p class="footer-p">
+              Website Ini Memberikan Informasi Pribadi Achmad Riziq Al Azzim,
+              Apa Saja Skill Yang Saya Kuasai.
+            </p>
+
+            <div class="sosial-footer">
+              <ul>
+                <li><a href="https://www.instagram.com/achmadriziqalazzim/" class="link-dark"><i
+                      class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/" class="link-dark"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.whatsapp.com/?lang=en" class="link-dark"><i
+                      class="fa-brands fa-whatsapp"></i></a>
+                </li>
+                <li><a href="https://www.tiktok.com/@family_triple_m" class="link-dark"><i
+                      class="fa-brands fa-tiktok"></i></a></li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="footer-col">
+            <h4>Navigation</h4>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skill">Skill</a>
+            <a href="#project">Project</a>
+          </div>
+
+
+          <div class="footer-col">
+            <h4>Sosial | Media</h4>
+            <a href="https://www.instagram.com/achmadriziqalazzim/">Instagram</a>
+            <a href="https://www.whatsapp.com/?lang=id">WhatsApp</a>
+            <a href="https://www.tiktok.com/@family_triple_m">Tiktok</a>
+            <a href="https://www.facebook.com/?locale=id_ID">Facebook</a>
+          </div>
+
+
+          <div class="footer-col">
+            <h4>Feature | Tool</h4>
+            <a href="#home">Landing Page</a>
+            <a href="Register.php">Register</a>
+            <a href="#search">Search</a>
+            <a href="login.php">Login</a>
+          </div>
+
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <section id="footer">
+    <div class="bg-white">
+
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+
+  <script>
+
+    const searchInput = document.getElementById("searchInput");
+    const searchBtn = document.getElementById("searchBtn");
+    const categorySelect = document.getElementById("category");
+    const items = document.querySelectorAll(".item");
+    const notFound = document.getElementById("notFound");
+
+    function filterData() {
+      const keyword = searchInput.value.toLowerCase();
+      const category = categorySelect.value;
+      let found = false;
+
+      items.forEach(item => {
+        const text = item.textContent.toLowerCase();
+        const itemCategory = item.dataset.category;
+
+        const matchText = text.includes(keyword);
+        const matchCategory =
+          category === "all" || itemCategory === category;
+
+        if (matchText && matchCategory) {
+          item.classList.remove("hidden");
+          found = true;
+        } else {
+          item.classList.add("hidden");
+        }
+      });
+
+      notFound.classList.toggle("hidden", found);
+    }
+
+
+    searchInput.addEventListener("keyup", filterData);
+
+    searchBtn.addEventListener("click", filterData);
+
+    categorySelect.addEventListener("change", filterData);
+
+    const text1 = "Website ";
+    const text2 = "Developer...";
+    let i = 0;
+    let j = 0;
+
+    const typing = document.getElementById("typing");
+
+    function typeWebsite() {
+      if (i < text1.length) {
+        typing.innerHTML += text1.charAt(i);
+        i++;
+        setTimeout(typeWebsite, 80);
+      } else {
+        typing.innerHTML += '<span class="text-[#0062ff]" id="dev"></span>';
+        typeDeveloper();
+      }
+    }
+
+    function typeDeveloper() {
+      const devSpan = document.getElementById("dev");
+      if (j < text2.length) {
+        devSpan.innerHTML += text2.charAt(j);
+        j++;
+        setTimeout(typeDeveloper, 80);
+      }
+    }
+
+    typeWebsite();
+
+    const navLinks = document.querySelectorAll(".nav-link");
+
+    navLinks.forEach(link => {
+      link.addEventListener("click", () => {
+
+        navLinks.forEach(l => l.classList.remove("active"));
+
+        link.classList.add("active");
+
+      });
+    });
+
+    const navbar = document.getElementById("navbar");
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add(
+          "bg-white",
+          "static",
+          "backdrop-blur",
+          "pb-3",
+          "transition"
+        );
+        navbar.classList.remove("bg-transparent");
+      } else {
+        navbar.classList.remove(
+          "bg-white",
+          "backdrop-blur",
+          "transition"
+        );
+        navbar.classList.add("bg-transparent");
+      }
+    });
+
+
+    const grid = document.getElementById("bg-grid");
+    const size = 32;
+    let cols = 0;
+
+    function createGrid() {
+      grid.innerHTML = "";
+
+      cols = Math.ceil(window.innerWidth / size);
+      const rows = Math.ceil(window.innerHeight / size);
+
+      for (let i = 0; i < cols * rows; i++) {
+        const cell = document.createElement("div");
+        cell.className = "cell";
+        grid.appendChild(cell);
+      }
+    }
+
+    createGrid();
+    window.addEventListener("resize", createGrid);
+
+
+    document.addEventListener("mousemove", (e) => {
+      const col = Math.floor(e.clientX / size);
+      const row = Math.floor(e.clientY / size);
+      const index = row * cols + col;
+
+      const cell = grid.children[index];
+      if (!cell) return;
+
+      cell.classList.add("active");
+
+      clearTimeout(cell._fade);
+      cell._fade = setTimeout(() => {
+        cell.classList.remove("active");
+      }, 700);
+    });
+
+    const loading = document.getElementById("loading");
+
+    document.querySelectorAll("a[href]:not([href^='#'])").forEach(link => {
+      link.addEventListener("click", e => {
+        e.preventDefault();
+
+        loading.classList.remove("hidden");
+        loading.classList.add("flex");
+
+        setTimeout(() => {
+          window.location.href = link.href;
+        }, 1800);
+      });
+    });
+
+    window.addEventListener("pageshow", () => {
+      const loading = document.getElementById("loading");
+      loading.classList.add("hidden");
+      loading.classList.remove("flex");
+    });
+
+  </script>
+</body>
+
+</html>

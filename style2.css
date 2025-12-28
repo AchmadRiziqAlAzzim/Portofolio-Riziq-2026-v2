@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Audiowide&family=Goldman:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Wallpoet&display=swap');
+
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.image_logo {
+    width: 12dvh; 
+    position: relative;
+}
+
+:root {
+    --text-dark: #111111;
+    --text-gray: #6f6f6f;
+}
+
+.section-talking {
+    width: 100%;
+    max-width: 82dvw;  
+    margin: 100px auto 60px;
+    padding: 0 20px;
+}
+
+.container {
+    transition: 0.3s ease;
+}
+
+div {
+    transition: 0.3s ease;
+}
+
+
+@media  (min-width: 1025px) {
+    .responsive {
+        max-width: 95%; 
+    }
+
+   #navbar {
+  margin-top: 11rem !important;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+     .responsive {
+        max-width: 100dvw; 
+    }
+
+   #navbar {
+  margin-top: 11rem;
+}
+}
+
+@media (max-width: 480px) {
+    .section-talking {
+        padding: 0 14px;
+        max-width: 100vw;
+    }
+}
+
+
+
+.talk-title {
+    font-size: 33px;     
+    font-weight: 700;      
+    color: var(--text-dark);
+    letter-spacing: -0.2px;
+    margin-bottom: 8px;
+}
+
+.talk-subtitle {
+    font-size: 14px;  
+    font-weight: 500;     
+    color: var(--text-gray);
+    line-height: 1.55;
+    max-width: 420px;
+    margin-bottom: 22px;
+}
+
+.talk-links a {
+    text-decoration: none;
+    font-size: 21px;        
+    font-weight: 600;        
+    color: var(--text-dark);
+    margin-right: 20px;
+}
+
+.talk-links a:hover {
+    opacity: 1;
+}
+
+.talk-links ul {
+  display: flex;
+  flex-direction: column;   
+  gap: 15px;          
+  padding: 0;
+  margin: 0;
+}
+
+
+.font {
+    font-size: 15px;     
+    font-weight: 700;      
+    color: var(--text-dark);
+    letter-spacing: -0.2px;
+    margin-bottom: 8px;
+}
+
+.font_contact {
+    font-size: 18px;     
+    font-weight: 700;      
+    color: var(--text-dark);
+    letter-spacing: -0.2px;
+    margin-bottom: 8px;
+}
+
+.sign {
+    font-size: clamp(1.8rem, 4vw, 1.3rem);     
+    font-weight: 700;      
+    color: var(--text-dark);
+    letter-spacing: -0.2px;
+    margin-bottom: 10dvh;
+}
+
+.font-head-card {
+    font-size: 20px;     
+    font-weight: 700;      
+    color: var(--text-dark);
+    letter-spacing: -0.2px;
+    margin-bottom: 8px;
+}
+
+.icon a {
+    font-size: 25px;     
+    font-weight: 700;      
+    color: var(--text-dark);
+    letter-spacing: -0.2px;
+    margin-bottom: 8px;
+}
+
+
+@media (min-width: 1024px) {
+    .responsive {
+        max-width: 85%;
+    }
+}
+
+#typing {
+  font-size: 20px;
+  font-weight: bold;
+  border-right: 3px solid;
+  width: fit-content;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: caret 0.7s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% { border-color: transparent; }
+}
+    .btn-wrapper {
+        display: flex;
+        margin-top: 6dvh;
+        gap: 14px;
+    }
+
+    .btn-glow,
+    .btn-glow-outline {
+        padding: 12px 24px;
+        border-radius: 12px;
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 15px;
+        transition: 0.25s ease;
+    }
+
+    /* Tombol utama */
+    .btn-glow {
+        background: #111111;
+        border: 2px solid #111111;
+        color: white;
+        box-shadow: 0 0 0px transparent;
+    }
+    .btn-glow:active {
+        border: 2px solid #111111;
+        background: transparent;
+        color: #111111;
+        transition: 0.3s ease;
+    }
+
+    /* Tombol outline */
+    .btn-glow-outline {
+        border: 2px solid #111111;
+        color: #111111;
+        background: transparent;
+    }
+    .btn-glow-outline:hover {
+        background: #111111;
+        color: white;
+    }
+
+    @keyframes caret {
+  50% { border-color: transparent; }
+}
+    .btn-wrapper2 {
+        display: flex;
+        margin-top: 6dvh;
+        gap: 14px;
+    }
+
+    .btn-glow2,
+    .btn-glow2-outline {
+        padding: 12px 24px;
+        border-radius: 12px;
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 15px;
+        transition: 0.25s ease;
+    }
+
+    /* Tombol utama */
+    .btn-glow2 {
+        background: #ffffff;
+        border: 2px solid #ffffff;
+        color: rgb(0, 0, 0);
+        box-shadow: 0 0 0px transparent;
+    }
+    .btn-glow2:active {
+        border: 2px solid #111111;
+        background: transparent;
+        color: #111111;
+        transition: 0.3s ease;
+    }
+
+
+    /* Tombol outline */
+    .btn-glow2-outline {
+        border: 2px solid #ffffff;
+        color: #ffffff;
+        background: transparent;
+    }
+    .btn-glow2-outline:hover {
+        background: #111111;
+        color: white;
+    }
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 500px;
+    margin: 144px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #0d0d0d;  /* ✅ clean white */
+}
+
+/* overlay gradasi kanan putih */
+.video-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;          /* besaran area fade */
+    height: 100%;
+    background: linear-gradient(
+        to left,
+        rgba(0, 0, 0, 0) 0%,
+        #000000 70%
+    );
+    pointer-events: none;
+    z-index: 4;
+}
+
+
+/* video */
+.video-wrapper video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* konten teks */
+.video-content {
+    position: absolute;
+    left: 76px;
+    bottom: 26px !important;
+    z-index: 5;
+    max-width: 55%;
+}
+
+/* judul utama */
+.video-content h1 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #ffffff;   /* ✅ pure black premium */
+    line-height: 1.15;
+    letter-spacing: -0.5px;
+}
+
+.video-content {
+    position: absolute;
+    left: 16px !important;
+    bottom: 100px !important;
+}
+
+.video-content {
+    position: absolute;
+    left: 40px;
+    bottom: 170px;
+    z-index: 5;
+    max-width: 80%;
+}
+
+/* Judul */
+.video-content h1 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #ffffff, #c9c0c0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+}
+
+/* Deskripsi */
+.video-content p {
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #ffffff !important;
+    line-height: 1.5;
+}
+
+.video-control {
+  position: absolute;
+  right: 24px;    
+  bottom: 24px;   
+  background: transparent ;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+
+  z-index: 9999;
+}
+
+#bg {
+  background-color: #000000;
+}
+
+.footer {
+  width: 100%;
+  border-top: 3px solid #1f1e24;
+  padding: 60px 20px;
+  background: white;
+  margin-top: 150px;
+}
+
+.footer-container {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: space-between;
+}
+
+
+.footer-left {
+  max-width: 360px;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.logo-footer {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.name-footer {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 900;
+}
+
+.footer-p {
+  font-size: 14px;
+  color: #1f1e24;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.sosial-footer ul {
+  display: flex;
+  gap: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+.sosial-footer ul li {
+  list-style: none;
+  font-size: 18px;
+  padding: 10px 18px;
+  border: 3px solid #1f1e24;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 0 #1f1e24;
+  transition: 0.2s ease;
+}
+
+.sosial-footer ul li:active {
+  background: #ffffff;
+  color: white !important;
+  box-shadow: 0 1px 0 #1f1e24;
+  transform: translateY(4%);
+}
+
+.footer-col {
+  min-width: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-col h4 {
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.footer-col a {
+  text-decoration: none;
+  color: #1f1e24;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-left {
+    max-width: 100%;
+  }
+}
+
+
+
+
+/* KHUSUS HP LANDSCAPE */
+@media (max-width: 900px) and (orientation: landscape) {
+  .video-wrapper {
+    height: 100vh;   /* penuh layar */
+  }
+
+  .video-content {
+    left: 24px;
+    bottom: 24px;
+    max-width: 90%;
+  }
+
+  .video-content h1 {
+    font-size: 22px;   /* lebih kecil biar ga kepotong */
+  }
+
+  .video-content p {
+    font-size: 13px;
+  }
+}
+
+ .chat-wrapper {
+      max-width: 1000px;
+      margin: 0px auto;
+      background: white;
+      padding: 20px;
+    }
+    #chatbox {
+      height: 300px;
+      overflow-y: auto;
+      padding: 10px;
+    }
+    .msg {
+      margin: 20px 0;
+      display: flex;
+    }
+    .msg .user {
+      background: #000000ff;
+      color: white;
+      font-weight: 500;
+      padding: 10px 14px;
+      border-radius: 15px 15px 0 15px;
+      margin-left: auto;
+      max-width: 75%;
+    }
+    .msg .ai {
+      background: #000000;
+      color: #ffffff;
+      padding: 10px 14px;
+      border-radius: 15px 15px 15px 0;
+      margin-right: auto;
+      max-width: 75%;
+      font-weight: 500;
+    }
+    .chat-input {
+      display: flex;
+      margin-top: 15px;
+      gap: 8px;
+    }
+    .chat-input input {
+      flex: 1;
+      border-radius: 8px;
+    }
+    .chat-input button {
+      border-radius: 8px;
+    }
+
+#button_search {
+  stroke:white;
+  fill: rgb(226, 43, 43);
+}
+
+
+
+
+
+
+
+
